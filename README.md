@@ -50,10 +50,10 @@ python train.py network=vgg name=my_vgg
 
 Losses           |  Accs
 :-------------------------:|:-------------------------:
-![Optimizers](images/loss200.jpg)  |  ![Schedulers](images/accuracy200.jpg)
+![Optimizers](images/loss200.jpg)  |  ![Schedulers](images/acc200.jpg)
 
 
 
 
 Confusion Matrix
-![Confusion Matrix](images/confusion matrix.png)
+![Confusion Matrix](images/confusion_matrix.png)
