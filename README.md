@@ -29,4 +29,13 @@ You can see the model's architecture in image below:
 :------------------------------------------------------:
 ![Model architecture here](images/architecture.jpeg)
 
+# Installation
 
+To use this repo, create a conda environment using environment.yml or requirements.txt
+
+```
+# from environment.yml (recommended)
+conda env create -f environment.yml
+
+# from requirements.txt
+conda create --name <env> --file requirements.txt```
