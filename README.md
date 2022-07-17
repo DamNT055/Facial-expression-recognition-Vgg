@@ -29,7 +29,7 @@ You can see the model's architecture in image below:
 :------------------------------------------------------:
 ![Model architecture here](images/architecture.jpeg)
 
-# Installation
+# Run Code
 
 To use this repo, create a conda environment using environment.yml or requirements.txt
 
@@ -38,4 +38,20 @@ To use this repo, create a conda environment using environment.yml or requiremen
 conda env create -f environment.yml
 
 # from requirements.txt
-conda create --name <env> --file requirements.txt```
+conda create --name <env> --file requirements.txt
+```
+
+# Training 
+
+To train your own version of our network, run the following
+```
+python train.py network=vgg name=my_vgg
+```
+
+Losses           |  Accs
+:-------------------------:|:-------------------------:
+![Optimizers](images/loss200.png)  |  ![Schedulers](images/accuracy200.png)
+
+
+Confusion Matrix
+![Confusion Matrix](images/confuse_matrix.png)
