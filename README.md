@@ -25,6 +25,7 @@ Database Drive : https://drive.google.com/drive/folders/1X1ZBHWFcHxBA1E6Hr4uWV84
 # Model 
 
 You can see the model's architecture in image below:
+
 The model's architecture reference from [FER using VGGnet](https://github.com/usef-kh/fer)
 ![Model architecture here](images/architecture.jpeg)
 
