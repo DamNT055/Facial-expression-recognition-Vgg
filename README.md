@@ -23,4 +23,37 @@ JAFFE: https://zenodo.org/record/3451524#.YtQ-sXZBzSE
 Database Drive : https://drive.google.com/drive/folders/1X1ZBHWFcHxBA1E6Hr4uWV84il6TvH_PE?usp=sharing
 
 # Model 
+The model's architecture reference from [FER using VGGnet](https://github.com/usef-kh/fer)
 
+You can see the model's architecture in image below:
+:------------------------------------------------------:
+![Model architecture here](images/architecture.jpeg)
+
+# Run Code
+
+To use this repo, create a conda environment using environment.yml or requirements.txt
+
+```
+# from environment.yml (recommended)
+conda env create -f environment.yml
+
+# from requirements.txt
+conda create --name <env> --file requirements.txt
+```
+
+# Training 
+
+To train your own version of our network, run the following
+```
+python train.py network=vgg name=my_vgg
+```
+
+Losses           |  Accs
+:-------------------------:|:-------------------------:
+![Optimizers](images/loss200.jpg)  |  ![Schedulers](images/accuracy200.jpg)
+
+
+
+
+Confusion Matrix
+![Confusion Matrix](images/confusion matrix.png)
