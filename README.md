@@ -23,10 +23,10 @@ JAFFE: https://zenodo.org/record/3451524#.YtQ-sXZBzSE
 Database Drive : https://drive.google.com/drive/folders/1X1ZBHWFcHxBA1E6Hr4uWV84il6TvH_PE?usp=sharing
 
 # Model 
+The model's architecture reference from [FER using VGGnet](https://github.com/usef-kh/fer)
 
 You can see the model's architecture in image below:
 :------------------------------------------------------:
-The model's architecture reference from [FER using VGGnet](https://github.com/usef-kh/fer)
 ![Model architecture here](images/architecture.jpeg)
 
 
