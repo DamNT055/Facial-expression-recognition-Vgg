@@ -71,3 +71,10 @@ python app.py
 ```
 
 
+
+Losses           |  Accs
+:-------------------------:|:-------------------------:
+![Optimizers](images/happy2.png)  |  ![Schedulers](images/sad2.png)
+
+
+
