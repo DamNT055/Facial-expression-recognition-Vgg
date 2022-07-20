@@ -68,7 +68,7 @@ Confusion Matrix
 ## Run Webapp
 
 ```
-python app.py
+streamlit run webapp.py
 ```
 
 
