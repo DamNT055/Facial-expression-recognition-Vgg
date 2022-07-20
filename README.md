@@ -73,7 +73,7 @@ streamlit run webapp.py
 
 
 
-![App appear here](webapp_img.png)
+![App appear here](images/webapp_img.png)
 
 
 
