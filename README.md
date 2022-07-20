@@ -12,6 +12,7 @@ Facial expression recognition (FER) is the task of classifying the expressions o
 ## Dataset
 
 Sources for the base datasets
+
 FER Dataset: https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge
 
 CK Plus Dataset: https://github.com/WuJie1010/Facial-Expression-Recognition.Pytorch/tree/master/CK%2B48
@@ -69,5 +70,14 @@ Confusion Matrix
 ```
 python app.py
 ```
+
+
+
+
+
+Happy           |  Sad
+:-------------------------:|:-------------------------:
+![Optimizers](images/happy2.png)  |  ![Schedulers](images/sad2.png)
+
 
 
